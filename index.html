@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Bhaskara</title>
+</head>
+<body>
+    <form>
+        <h2>Resolvendo Bhaskara</h2>
+        <p>Informe os valores dos coeficientes:</p>
+        <div id="formula">
+            <input type="number" id="txtA" class="txt"> 
+            <span>x<sup>2</sup> +</span>
+            <input type="number" id="txtB" class="txt">
+            <span>x +</span>
+            <input type="number" id="txtC" class="txt">
+            <span>= 0</span>  
+        </div>
+        <div id="delta">
+            <label for="txtDelta">O valor do Delta é: </label>
+            <input type="text" id="txtDelta" disabled>
+        </div>
+        <div id="raizes">
+            <span>As raízes são: </span>
+            <input type="text" id="txtRaizA" disabled>
+            <input type="text" id="txtRaizB" disabled>
+        </div>
+        <div id="botoes">
+            <input type="button" value="Calcular"  onclick="Calcular()" id="calcular">
+            <input type="reset"  value="Limpar" onclick="Limpar()" id="limpar">
+        </div>
+    </form>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
