@@ -9,8 +9,9 @@
 <body>
     <form>
         <h2>Resolvendo Bhaskara</h2>
+        <br>
         <p>Informe os valores dos coeficientes:</p>
-        <div id="formula">
+        <div id="equacao">
             <input type="number" id="txtA" class="txt"> 
             <span>x<sup>2</sup> +</span>
             <input type="number" id="txtB" class="txt">
@@ -19,13 +20,16 @@
             <span>= 0</span>  
         </div>
         <div id="delta">
-            <label for="txtDelta">O valor do Delta é: </label>
+            <label for="txtDelta">O valor de delta é: </label>
             <input type="text" id="txtDelta" disabled>
         </div>
         <div id="raizes">
             <span>As raízes são: </span>
+            <span>(</span>
             <input type="text" id="txtRaizA" disabled>
+            <span>,</span>
             <input type="text" id="txtRaizB" disabled>
+            <span>)</span>
         </div>
         <div id="botoes">
             <input type="button" value="Calcular"  onclick="Calcular()" id="calcular">

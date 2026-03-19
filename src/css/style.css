@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    background-color: #010409;
+}
+form {
+    text-align: center;
+    align-items: center; 
+}
+#equacao {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#equacao input, #delta input, #raizes input {
+    text-align: center;
+    font-size: 2.25rem;
+    width: 150px;
+    background-color: #0D1117;
+    border-radius: 10px;
+    color: aliceblue
+}
+#delta {
+    padding-bottom: 15px;
+}
+#botoes {
+    padding-top: 50px;
+}
+#botoes input {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    height: 80px;
+    width: 200px;
+    background-color: #238636;
+    border-radius: 33px;
+    color: aliceblue;
+}
+#botoes input:hover {
+    background-color: #25472a;
+    transform: scale(1.01);
+}
