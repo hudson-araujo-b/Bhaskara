@@ -1,8 +1,8 @@
-function Calcular(){
+function Calcular() {
     let a = document.getElementById("txtA").value;
     let b = document.getElementById("txtB").value;
     let c = document.getElementById("txtC").value;
-    if (a == "" || b == "" || c == "") {
+    if (a === "" || b === "" || c ==="") {
         alert("Insira todos os coeficientes.")
     }
     else {
@@ -19,4 +19,8 @@ function Calcular(){
             document.getElementById("txtRaizB").value = raizB.toFixed(2);
         } 
     }   
+}
+
+function Limpar() {
+    document.getElementById("txtA").focus();
 }
